@@ -47,7 +47,7 @@ export default function Home({apiKey}) {
           setStart(false)
           var hours24 = []
           var days8 = []
-          for(var i = 2; i < 8; i++){
+          for(var i = 1; i < 7; i++){
             hours24.push(response.data.list[i])
           }
           for(var i = 0; i < response.data.list.length ; i++){
