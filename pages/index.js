@@ -105,6 +105,7 @@ export default function Home({apiKey}) {
     setLocation("")
     setData()
     setErrorMessage()
+    setStart(false)
     setWeatherDes("")
     setHourlyForecast()
     setDailyForecast()
